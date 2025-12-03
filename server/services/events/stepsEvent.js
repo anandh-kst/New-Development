@@ -1,16 +1,8 @@
 import mongoose from "mongoose";
 import Observation  from "../../models/observation.model.js";
 import  METRIC_TYPE  from "../../constants/metricTypes.js";
+import { getSourceType,isValidValue } from "../../utils/service-helper.js";
 
-const isValidValue = (value) => {
-  return value !== null && value !== undefined && !Number.isNaN(value) && value !== 0;
-};
-
-const getSourceType = (nonStructuredArray) => {
-  if (!nonStructuredArray || nonStructuredArray.length === 0) return true;
-  const logType = nonStructuredArray[0]?.logType || nonStructuredArray[0]?.type || "device";
-  return logType !== "manual"; 
-};
 
 export const saveStepsEvent = async (webhookData) => {
   try {
