@@ -134,7 +134,7 @@ export const saveBodySummary = async (webhookData) => {
         new Observation({
           client_uuid: client_uuid,
           user_id,
-          metric_type: METRIC_TYPE.HEART_RATE_AVG,
+          metric_type: METRIC_TYPE.HR_AVG,
           metric_value: hr.hr_avg_bpm_int,
           metric_unit: "bpm",
           metric_source: source,
