@@ -48,7 +48,7 @@ export const saveActivityEvent = async (webhookData) => {
             user_id,
             metric_type: activityType,
             metric_value: activityValue,
-            metric_unit: "sec",
+            metric_unit: "seconds",
             metric_source: source,
             source_type: sourceType,
             date,
