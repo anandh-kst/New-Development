@@ -5,6 +5,7 @@ import heartRateEventService from "../services/events/hartRateEvent.js";
 import bloodPressureEventService from "../services/events/bloodPressure.js";
 import stepsEventService from "../services/events/stepsEvent.js";
 import saveBodyMetricsEvent from "../services/events/modyMetricsEvent.js";
+import saveActivityEvent from "../services/events/activityEvent.js";
 
 const serviceMap = {
   body_summary: bodySummaryService,
@@ -13,7 +14,8 @@ const serviceMap = {
   blood_pressure_event: bloodPressureEventService,
   steps_event: stepsEventService,
   physical_summary: physicalSummaryService,
-  body_metrics_event: saveBodyMetricsEvent
+  body_metrics_event: saveBodyMetricsEvent,
+  activity_event: saveActivityEvent,
 };
 
 export default serviceMap;
