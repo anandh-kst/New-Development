@@ -16,8 +16,7 @@ export const saveBodySummary = async (webhookData) => {
       : new Date();
 
     const sourceArray = summary.metadata?.sources_of_data_array || ["Unknown"];
-    const source = sourceArray[0];
-
+    const source = sourceArray.length > 1 ? sourceArray.join("+") : sourceArray[0];
     const sourceType = getSourceType(summary.non_structured_data_array);
 
     const metricsToSave = [];

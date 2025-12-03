@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import Observation  from "../../models/observation.model.js";
-import  METRIC_TYPE  from "../../constants/metricTypes.js";
-import { getSourceType,isValidValue } from "../../utils/service-helper.js";
+import Observation from "../../models/observation.model.js";
+import METRIC_TYPE from "../../constants/metricTypes.js";
+import { getSourceType, isValidValue } from "../../utils/service-helper.js";
 
 export const savePhysicalSummary = async (webhookData) => {
   try {
@@ -16,12 +16,10 @@ export const savePhysicalSummary = async (webhookData) => {
       : new Date();
 
     const sourceArray = summary.metadata?.sources_of_data_array || ["Unknown"];
-    const source = sourceArray[0];
-
+    const source = sourceArray.length > 1 ? sourceArray.join("+") : sourceArray[0];
     const sourceType = getSourceType(summary.non_structured_data_array);
 
     const metricsToSave = [];
-
     const activity = summary.activity;
     if (activity) {
       if (isValidValue(activity.active_seconds_int)) {
