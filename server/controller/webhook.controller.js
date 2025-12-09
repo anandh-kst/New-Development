@@ -9,7 +9,7 @@ export default{
     if (!valid) return res.status(400).json({ error: message });
 
     const service = serviceMap[payload.data_structure];
-    if (!service) return res.status(400).json({ error: `No service implemented for ${payload.data_structure}` });
+    if (!service) return res.status(200).json({ error: `No service implemented for ${payload.data_structure}` });
 
     await service(payload);
 

@@ -26,7 +26,7 @@ export const saveHeartRateEvent = async (webhookData) => {
 
       const hrMetricsMap = [
         {
-          type: METRIC_TYPE.HR_EVENT_AVG,
+          type: METRIC_TYPE.HR_AVG,
           value: hrData.hr_avg_bpm_int,
           unit: "bpm",
         },
@@ -36,12 +36,12 @@ export const saveHeartRateEvent = async (webhookData) => {
           unit: "bpm",
         },
         {
-          type: METRIC_TYPE.HR_EVENT_MAX,
+          type: METRIC_TYPE.HR_MAX,
           value: hrData.hr_maximum_bpm_int,
           unit: "bpm",
         },
         {
-          type: METRIC_TYPE.HR_EVENT_MIN,
+          type: METRIC_TYPE.HR_MIN,
           value: hrData.hr_minimum_bpm_int,
           unit: "bpm",
         },

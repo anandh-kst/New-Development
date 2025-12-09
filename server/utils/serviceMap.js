@@ -8,12 +8,12 @@ import saveBodyMetricsEvent from "../services/events/modyMetricsEvent.js";
 import saveActivityEvent from "../services/events/activityEvent.js";
 
 const serviceMap = {
-  body_summary: bodySummaryService,
-  sleep_summary: sleepSummaryService,
+  // body_summary: bodySummaryService,
+  // sleep_summary: sleepSummaryService,
   heart_rate_event: heartRateEventService,
   blood_pressure_event: bloodPressureEventService,
   steps_event: stepsEventService,
-  physical_summary: physicalSummaryService,
+  // physical_summary: physicalSummaryService,
   body_metrics_event: saveBodyMetricsEvent,
   activity_event: saveActivityEvent,
 };
