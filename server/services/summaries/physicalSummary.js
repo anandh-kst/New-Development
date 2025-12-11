@@ -30,7 +30,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.ACTIVE_SECONDS,
             metric_value: activity.active_seconds_int,
             metric_unit: "seconds",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -44,7 +44,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.REST_SECONDS,
             metric_value: activity.rest_seconds_int,
             metric_unit: "seconds",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -58,7 +58,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.LOW_INTENSITY_SECONDS,
             metric_value: activity.low_intensity_seconds_int,
             metric_unit: "seconds",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -72,7 +72,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.MODERATE_INTENSITY_SECONDS,
             metric_value: activity.moderate_intensity_seconds_int,
             metric_unit: "seconds",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -86,7 +86,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.VIGOROUS_INTENSITY_SECONDS,
             metric_value: activity.vigorous_intensity_seconds_int,
             metric_unit: "seconds",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -105,7 +105,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.CALORIES_EXPENDITURE,
             metric_value: calories.calories_expenditure_kcal_float,
             metric_unit: "kcal",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -119,7 +119,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.CALORIES_NET_ACTIVE,
             metric_value: calories.calories_net_active_kcal_float,
             metric_unit: "kcal",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -138,7 +138,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.STEPS,
             metric_value: distance.steps_int,
             metric_unit: "steps",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -152,7 +152,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.WALKED_DISTANCE,
             metric_value: distance.traveled_distance_meters_float,
             metric_unit: "meters",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -166,7 +166,7 @@ export const savePhysicalSummary = async (webhookData) => {
             metric_type: METRIC_TYPE.SWIMMING_NUM_STROKES,
             metric_value: distance.swimming_num_strokes_float,
             metric_unit: "strokes",
-            metric_source: source,
+            metric_source: 'summary',
             source_type: sourceType,
             date,
           })
@@ -183,7 +183,7 @@ export const savePhysicalSummary = async (webhookData) => {
           metric_type: METRIC_TYPE.HR_AVG,
           metric_value: hr.hr_avg_bpm_int,
           metric_unit: "bpm",
-          metric_source: source,
+          metric_source: 'summary',
           source_type: sourceType,
           date,
         })
@@ -199,7 +199,7 @@ export const savePhysicalSummary = async (webhookData) => {
           metric_type: METRIC_TYPE.STRESS_DURATION,
           metric_value: stress.stress_duration_seconds_int,
           metric_unit: "seconds",
-          metric_source: source,
+          metric_source: 'summary',
           source_type: sourceType,
           date,
         })
@@ -215,7 +215,7 @@ export const savePhysicalSummary = async (webhookData) => {
           metric_type: METRIC_TYPE.OXYGENATION_SATURATION,
           metric_value: oxy.saturation_avg_percentage_int,
           metric_unit: "%",
-          metric_source: source,
+          metric_source: 'summary',
           source_type: sourceType,
           date,
         })

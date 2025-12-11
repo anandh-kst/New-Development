@@ -1,0 +1,4312 @@
+[{
+  "_id": {
+    "$oid": "692fce5957b01124eadae0c0"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:44:57.908Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:44:57.908Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fce5957b01124eadae0c1"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 6,
+  "metric_value": 1916,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:44:57.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:44:57.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcea157b01124eadae0c3"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 35,
+  "metric_value": 65,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-28T05:09:14.754Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:46:09.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:46:09.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcea157b01124eadae0c4"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-28T05:09:14.754Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:46:09.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:46:09.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcea157b01124eadae0c5"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 37,
+  "metric_value": 13.63,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-28T05:09:14.754Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:46:09.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:46:09.374Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcedc57b01124eadae0c7"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 18,
+  "metric_value": 65,
+  "metric_unit": "bpm",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:12:08.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:47:08.362Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:47:08.362Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcf1757b01124eadae0c9"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 35,
+  "metric_value": 0.6,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-28T05:09:14.754Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:48:07.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:48:07.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcf1757b01124eadae0ca"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 1854,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-28T05:09:14.754Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:48:07.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:48:07.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcf1757b01124eadae0cb"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 37,
+  "metric_value": 0.001745547979877323,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-28T05:09:14.754Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:48:07.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:48:07.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcf6757b01124eadae0cd"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:49:27.507Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:49:27.507Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fcf6757b01124eadae0ce"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 6,
+  "metric_value": 1916,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T05:49:27.507Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T05:49:27.507Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fda47c6664fcb5bcd993b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 35,
+  "metric_value": 69.989,
+  "metric_unit": "kg",
+  "metric_source": "Garmin",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T06:06:03.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T06:35:51.197Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T06:35:51.197Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692fef44d854b170a52df91c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 73,
+  "metric_value": 101,
+  "metric_unit": "sec",
+  "metric_source": "Polar",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T12:38:51.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T08:05:24.350Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T08:05:24.350Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692ff0bf342073f252360d3d"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 35,
+  "metric_value": 69.989,
+  "metric_unit": "kg",
+  "metric_source": "Garmin",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T06:06:03.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T08:11:43.935Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T08:11:43.935Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692ffefebe2ac23d4a97e3aa"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 73,
+  "metric_value": 101,
+  "metric_unit": "sec",
+  "metric_source": "Polar",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T12:38:51.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T09:12:30.343Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T09:12:30.343Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693000d348bb9d35e67289d0"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T09:20:19.292Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T09:20:19.292Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6930105fa699543f50895340"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T10:26:39.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T10:26:39.809Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6930105fa699543f50895341"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 6,
+  "metric_value": 1916,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T10:26:39.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T10:26:39.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69308d7377ca6d509c94b137"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T19:20:19.234Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T19:20:19.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69308d7377ca6d509c94b138"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 6,
+  "metric_value": 1916,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-03T19:20:19.235Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-03T19:20:19.235Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69310fea63a48943c08b6c61"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "user123",
+  "metric_type": 47,
+  "metric_value": 25200,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T06:30:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:36:58.949Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:36:58.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69310fea63a48943c08b6c62"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "user123",
+  "metric_type": 48,
+  "metric_value": 25200,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T06:30:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:36:58.950Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:36:58.950Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69310fea63a48943c08b6c63"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "user123",
+  "metric_type": 55,
+  "metric_value": 100,
+  "metric_unit": "%",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T06:30:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:36:58.950Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:36:58.950Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931101f63a48943c08b6c65"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "user123",
+  "metric_type": 35,
+  "metric_value": 69,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:37:51.280Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:37:51.280Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931101f63a48943c08b6c66"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "user123",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:37:51.280Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:37:51.280Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931101f63a48943c08b6c67"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "user123",
+  "metric_type": 37,
+  "metric_value": 14.47,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:37:51.280Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:37:51.280Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693111ad63a48943c08b6c69"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 59,
+  "metric_value": 69,
+  "metric_unit": "bpm",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T04:44:10.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:44:29.422Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:44:29.422Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693111e963a48943c08b6c6b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 187,
+  "metric_unit": "cm",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T04:40:05.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:45:29.086Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:45:29.086Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69311434ebed0d496f662e04"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 35,
+  "metric_value": 69,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:55:16.943Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:55:16.943Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69311434ebed0d496f662e05"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:55:16.944Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:55:16.944Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69311434ebed0d496f662e06"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 37,
+  "metric_value": 14.47,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:55:16.944Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:55:16.944Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931153debed0d496f662e08"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 9,
+  "metric_value": 4365,
+  "metric_unit": "count",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T04:59:41.890Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T04:59:41.890Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69311ab1cd660b83e3d1e2d8"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 35,
+  "metric_value": 70,
+  "metric_unit": "kg",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T05:22:34.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T05:22:57.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T05:22:57.812Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69311ab1cd660b83e3d1e2d9"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 187,
+  "metric_unit": "cm",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T05:22:34.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T05:22:57.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T05:22:57.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69311ab1cd660b83e3d1e2da"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 37,
+  "metric_value": 20.02,
+  "metric_unit": "bmi",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T05:22:34.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T05:22:57.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T05:22:57.813Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931363154c36e1573c4d7bf"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 47,
+  "metric_value": 25200,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T06:30:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T07:20:17.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T07:20:17.550Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931363154c36e1573c4d7c0"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 48,
+  "metric_value": 25200,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T06:30:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T07:20:17.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T07:20:17.550Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931363154c36e1573c4d7c1"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 55,
+  "metric_value": 100,
+  "metric_unit": "%",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T06:30:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T07:20:17.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T07:20:17.550Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dcd3aed0b7db40e4e7f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 35,
+  "metric_value": 70,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:01.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:01.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dcd3aed0b7db40e4e80"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 187,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:01.130Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:01.130Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dcd3aed0b7db40e4e81"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 37,
+  "metric_value": 20.0177299894192,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:01.130Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:01.130Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dcd3aed0b7db40e4e82"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 18,
+  "metric_value": 69,
+  "metric_unit": "bpm",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:01.130Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:01.130Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dd03aed0b7db40e4e84"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 35,
+  "metric_value": 70,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dd03aed0b7db40e4e85"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 187,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dd03aed0b7db40e4e86"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 37,
+  "metric_value": 20.0177299894192,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dd03aed0b7db40e4e87"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 18,
+  "metric_value": 69,
+  "metric_unit": "bpm",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dd03aed0b7db40e4e88"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 38,
+  "metric_value": 473,
+  "metric_unit": "ml",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69314dd03aed0b7db40e4e89"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 39,
+  "metric_value": 50,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T09:01:04.598Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931da7f562fa60df0338e09"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 1,
+  "metric_value": 848,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:01:19.540Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:01:19.540Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931da7f562fa60df0338e0a"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931da7f562fa60df0338e0b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 3,
+  "metric_value": 4325,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931da7f562fa60df0338e0c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 4,
+  "metric_value": 848,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931da7f562fa60df0338e0d"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 6,
+  "metric_value": 1916,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931da7f562fa60df0338e0e"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 7,
+  "metric_value": 140.8,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931da7f562fa60df0338e0f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 9,
+  "metric_value": 4365,
+  "metric_unit": "steps",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931da7f562fa60df0338e10"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 10,
+  "metric_value": 3406.127,
+  "metric_unit": "meters",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:01:19.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931def55ed3524659979361"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 1,
+  "metric_value": 427,
+  "metric_unit": "seconds",
+  "metric_source": "Withings+Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:20:21.688Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:20:21.688Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931def55ed3524659979362"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 2,
+  "metric_value": 61200,
+  "metric_unit": "seconds",
+  "metric_source": "Withings+Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:20:21.688Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:20:21.688Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931def55ed3524659979363"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 3,
+  "metric_value": 909,
+  "metric_unit": "seconds",
+  "metric_source": "Withings+Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:20:21.688Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:20:21.688Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931def55ed3524659979364"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 4,
+  "metric_value": 427,
+  "metric_unit": "seconds",
+  "metric_source": "Withings+Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:20:21.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:20:21.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931def55ed3524659979365"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 6,
+  "metric_value": 1955,
+  "metric_unit": "kcal",
+  "metric_source": "Withings+Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:20:21.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:20:21.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931def55ed3524659979366"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 7,
+  "metric_value": 38.451,
+  "metric_unit": "kcal",
+  "metric_source": "Withings+Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:20:21.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:20:21.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6931def55ed3524659979367"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 9,
+  "metric_value": 1207,
+  "metric_unit": "steps",
+  "metric_source": "Withings+Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-04T19:20:21.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T19:20:21.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69322e73d4b587c18a86ea75"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 9,
+  "metric_value": 1207,
+  "metric_unit": "count",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T23:59:29.688Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-05T00:59:31.479Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T00:59:31.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6932a3d4caee48b57c58df6b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-05T09:20:20.045Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T09:20:20.045Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933307407d8cecd95f9d965"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-05T19:20:20.547Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T19:20:20.547Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933307407d8cecd95f9d966"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 6,
+  "metric_value": 1956,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-05T19:20:20.547Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-05T19:20:20.547Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933f554ab0c1b1d76b263d4"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "692d4ae8f6a15ddb999f67dd",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-06T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T09:20:20.705Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T09:20:20.705Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb1a7f0fe47fb2fb6f0"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 1800,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:17.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:17.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb1a7f0fe47fb2fb6f1"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:17.071Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:17.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb1a7f0fe47fb2fb6f2"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 1800,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:17.071Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:17.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb1a7f0fe47fb2fb6f3"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1818,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:17.071Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:17.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb1a7f0fe47fb2fb6f4"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 197,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:17.071Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:17.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb3a7f0fe47fb2fb6f6"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-30T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:19.686Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:19.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb3a7f0fe47fb2fb6f7"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1656,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-30T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:19.686Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:19.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb8a7f0fe47fb2fb6f9"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 3600,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb8a7f0fe47fb2fb6fa"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb8a7f0fe47fb2fb6fb"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 1800,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb8a7f0fe47fb2fb6fc"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 1800,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb8a7f0fe47fb2fb6fd"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1851,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933feb8a7f0fe47fb2fb6fe"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 246,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:24.555Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933febfa7f0fe47fb2fb700"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 6720,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933febfa7f0fe47fb2fb701"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933febfa7f0fe47fb2fb702"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 4440,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933febfa7f0fe47fb2fb703"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 1380,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933febfa7f0fe47fb2fb704"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 5,
+  "metric_value": 900,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933febfa7f0fe47fb2fb705"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 2121,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933febfa7f0fe47fb2fb706"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 558,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933febfa7f0fe47fb2fb707"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 9,
+  "metric_value": 5179,
+  "metric_unit": "steps",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:31.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fec1a7f0fe47fb2fb709"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:33.431Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:33.431Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fec1a7f0fe47fb2fb70a"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1504,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:33.432Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:33.432Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fec6a7f0fe47fb2fb70c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:38.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:38.265Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fec6a7f0fe47fb2fb70d"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1504,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:38.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:38.265Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fecca7f0fe47fb2fb70f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:44.991Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:44.991Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fecca7f0fe47fb2fb710"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1504,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:00:44.991Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:00:44.991Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee1a7f0fe47fb2fb712"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 35,
+  "metric_value": 68,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:05.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:05.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee1a7f0fe47fb2fb713"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 36,
+  "metric_value": 162,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:05.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:05.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee1a7f0fe47fb2fb714"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 37,
+  "metric_value": 22.99,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:05.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:05.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee1a7f0fe47fb2fb715"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 38,
+  "metric_value": 1000,
+  "metric_unit": "ml",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:05.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:05.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee4a7f0fe47fb2fb717"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 36,
+  "metric_value": 162,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-30T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:08.013Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:08.013Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee5a7f0fe47fb2fb719"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 35,
+  "metric_value": 70.5,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:09.648Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:09.648Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee5a7f0fe47fb2fb71a"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 36,
+  "metric_value": 162,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:09.648Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:09.648Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee5a7f0fe47fb2fb71b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 37,
+  "metric_value": 23.83,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:09.648Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:09.648Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fee5a7f0fe47fb2fb71c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 38,
+  "metric_value": 250,
+  "metric_unit": "ml",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:01:09.648Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:01:09.648Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb71e"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 848,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb71f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb720"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 4325,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb721"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 848,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb722"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1623.53,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb723"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 140.8,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb724"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 9,
+  "metric_value": 4365,
+  "metric_unit": "steps",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb725"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 10,
+  "metric_value": 3406.127,
+  "metric_unit": "meters",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff2a7f0fe47fb2fb730"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 6720,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff2a7f0fe47fb2fb731"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff2a7f0fe47fb2fb732"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 4440,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff2a7f0fe47fb2fb733"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 1380,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff2a7f0fe47fb2fb734"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 5,
+  "metric_value": 900,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff2a7f0fe47fb2fb735"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 2121,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff2a7f0fe47fb2fb736"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 558,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff2a7f0fe47fb2fb737"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 9,
+  "metric_value": 5179,
+  "metric_unit": "steps",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:38.155Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb727"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 427,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb728"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb729"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 909,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb72a"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 427,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb72b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1779.935,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb72c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 38.451,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb72d"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 9,
+  "metric_value": 1207,
+  "metric_unit": "steps",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6933fff1a7f0fe47fb2fb72e"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 10,
+  "metric_value": 968.734,
+  "metric_unit": "meters",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:05:37.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340075a7f0fe47fb2fb739"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 1800,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340075a7f0fe47fb2fb73a"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340075a7f0fe47fb2fb73b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 1800,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340075a7f0fe47fb2fb73c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1922,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340075a7f0fe47fb2fb73d"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 197,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:49.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934007ba7f0fe47fb2fb73f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-30T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:55.149Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:55.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934007ba7f0fe47fb2fb740"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1929,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-30T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:55.149Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:55.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934007fa7f0fe47fb2fb742"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 3600,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:59.128Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:59.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934007fa7f0fe47fb2fb743"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934007fa7f0fe47fb2fb744"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 1800,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934007fa7f0fe47fb2fb745"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 1800,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934007fa7f0fe47fb2fb746"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1936,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934007fa7f0fe47fb2fb747"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 246,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:07:59.129Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340085a7f0fe47fb2fb749"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 6720,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340085a7f0fe47fb2fb74a"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340085a7f0fe47fb2fb74b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 4440,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340085a7f0fe47fb2fb74c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 1380,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340085a7f0fe47fb2fb74d"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 5,
+  "metric_value": 900,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340085a7f0fe47fb2fb74e"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 2121,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340085a7f0fe47fb2fb74f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 558,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340085a7f0fe47fb2fb750"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 9,
+  "metric_value": 5179,
+  "metric_unit": "steps",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:53:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:05.192Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340088a7f0fe47fb2fb752"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 848,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:08.434Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:08.434Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340088a7f0fe47fb2fb753"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340088a7f0fe47fb2fb754"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 4325,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340088a7f0fe47fb2fb755"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 848,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340088a7f0fe47fb2fb756"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1950,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340088a7f0fe47fb2fb757"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 140.8,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340088a7f0fe47fb2fb758"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 9,
+  "metric_value": 4365,
+  "metric_unit": "steps",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:08.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934008ca7f0fe47fb2fb75a"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 1,
+  "metric_value": 427,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934008ca7f0fe47fb2fb75b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934008ca7f0fe47fb2fb75c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 3,
+  "metric_value": 909,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934008ca7f0fe47fb2fb75d"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 4,
+  "metric_value": 427,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934008ca7f0fe47fb2fb75e"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1955,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934008ca7f0fe47fb2fb75f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 7,
+  "metric_value": 38.451,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6934008ca7f0fe47fb2fb760"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 9,
+  "metric_value": 1207,
+  "metric_unit": "steps",
+  "metric_source": "Fitbit+Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:12.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340091a7f0fe47fb2fb762"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:17.777Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:17.777Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69340091a7f0fe47fb2fb763"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 6,
+  "metric_value": 1956,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:17.777Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:17.777Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400a5a7f0fe47fb2fb765"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 35,
+  "metric_value": 68,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:37.302Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:37.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400a5a7f0fe47fb2fb766"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:37.302Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:37.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400a5a7f0fe47fb2fb767"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 37,
+  "metric_value": 22.99,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:37.302Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:37.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400a5a7f0fe47fb2fb768"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 38,
+  "metric_value": 1000,
+  "metric_unit": "ml",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:37.302Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:37.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400a7a7f0fe47fb2fb76a"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-11-30T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:39.843Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:39.843Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400aaa7f0fe47fb2fb76c"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 35,
+  "metric_value": 70.5,
+  "metric_unit": "kg",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:42.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:42.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400aaa7f0fe47fb2fb76d"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:42.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:42.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400aaa7f0fe47fb2fb76e"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 37,
+  "metric_value": 23.83,
+  "metric_unit": "bmi",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:42.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:42.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693400aaa7f0fe47fb2fb76f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "jayaram",
+  "metric_type": 38,
+  "metric_value": 250,
+  "metric_unit": "ml",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-06T10:08:42.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-06T10:08:42.826Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936c8e3c48c7d44802b755e"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "userID",
+  "metric_type": 27,
+  "metric_value": 120,
+  "metric_unit": "mmHg",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:58:39.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T12:47:31.759Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T12:47:31.759Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936c8e3c48c7d44802b755f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "userID",
+  "metric_type": 28,
+  "metric_value": 80,
+  "metric_unit": "mmHg",
+  "metric_source": "Withings",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T05:58:39.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T12:47:31.759Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T12:47:31.759Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d56a96f53ab4a5feb7da"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:40:58.991Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:40:58.991Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d56a96f53ab4a5feb7db"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 6,
+  "metric_value": 1936,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:40:58.992Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:40:58.992Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d56d96f53ab4a5feb7dd"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:01.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:01.403Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d56d96f53ab4a5feb7de"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 6,
+  "metric_value": 1943,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:01.404Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:01.404Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d57296f53ab4a5feb7e0"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:06.370Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:06.370Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d57296f53ab4a5feb7e1"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 6,
+  "metric_value": 1950,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:06.370Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:06.370Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d57896f53ab4a5feb7e3"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 2,
+  "metric_value": 61200,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:12.443Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:12.443Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d57896f53ab4a5feb7e4"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 6,
+  "metric_value": 1955,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-04T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:12.443Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:12.443Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d57c96f53ab4a5feb7e6"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:16.530Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:16.530Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d57c96f53ab4a5feb7e7"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 6,
+  "metric_value": 1956,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-05T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:16.530Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:16.530Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d58196f53ab4a5feb7e9"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-06T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:21.587Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:21.587Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d58196f53ab4a5feb7ea"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 6,
+  "metric_value": 1956,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-06T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:21.587Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:21.587Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d58696f53ab4a5feb7ec"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-07T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:26.650Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:26.650Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d58696f53ab4a5feb7ed"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 6,
+  "metric_value": 1956,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-07T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:26.650Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:26.650Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d59c96f53ab4a5feb7ef"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-01T13:41:44.332Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:48.038Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:48.038Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d59e96f53ab4a5feb7f1"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-02T13:41:46.904Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:50.314Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:50.314Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936d5a096f53ab4a5feb7f3"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-03T13:41:49.364Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T13:41:52.252Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T13:41:52.252Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6936da1f37defb79cf573a7b"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 36,
+  "metric_value": 218,
+  "metric_unit": "cm",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-08T00:00:00.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-08T14:01:03.044Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-08T14:01:03.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693766bf68fb440dc29f187e"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 2,
+  "metric_value": 86400,
+  "metric_unit": "seconds",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-08T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-09T00:01:03.701Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-09T00:01:03.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693766bf68fb440dc29f187f"
+  },
+  "client_uuid": "a22348d1-6c3f-4329-abc0-dee27efd4455",
+  "user_id": "6932dbc153d838896d987f44",
+  "metric_type": 6,
+  "metric_value": 1956,
+  "metric_unit": "kcal",
+  "metric_source": "Fitbit",
+  "source_type": true,
+  "date": {
+    "$date": "2025-12-08T00:00:01.000Z"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-09T00:01:03.712Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-09T00:01:03.712Z"
+  }
+}]

@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import Observation  from "../../models/observation.model.js";
-import  METRIC_TYPE  from "../../constants/metricTypes.js";
-import { getSourceType,isValidValue } from "../../utils/service-helper.js";
+import Observation from "../../models/observation.model.js";
+import METRIC_TYPE from "../../constants/metricTypes.js";
+import { getSourceType, isValidValue } from "../../utils/service-helper.js";
 
 export const saveBodySummary = async (webhookData) => {
   try {
@@ -16,7 +16,8 @@ export const saveBodySummary = async (webhookData) => {
       : new Date();
 
     const sourceArray = summary.metadata?.sources_of_data_array || ["Unknown"];
-    const source = sourceArray.length > 1 ? sourceArray.join("+") : sourceArray[0];
+    const source =
+      sourceArray.length > 1 ? sourceArray.join("+") : sourceArray[0];
     const sourceType = getSourceType(summary.non_structured_data_array);
 
     const metricsToSave = [];
@@ -31,7 +32,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.WEIGHT,
             metric_value: bodyMetrics.weight_kg_float,
             metric_unit: "kg",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -45,7 +46,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.HEIGHT,
             metric_value: bodyMetrics.height_cm_int,
             metric_unit: "cm",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -59,7 +60,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.BMI,
             metric_value: bodyMetrics.bmi_float,
             metric_unit: "bmi",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -76,7 +77,7 @@ export const saveBodySummary = async (webhookData) => {
           metric_type: METRIC_TYPE.BLOOD_GLUCOSE,
           metric_value: glucose.blood_glucose_avg_mg_per_dL_int,
           metric_unit: "mg/dL",
-          metric_source: source,
+          metric_source: "summary",
           source_type: sourceType,
           date,
         })
@@ -93,7 +94,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.BLOOD_PRESSURE_SYSTOLIC,
             metric_value: bp.systolic_mmHg_int,
             metric_unit: "mmHg",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -107,7 +108,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.BLOOD_PRESSURE_DIASTOLIC,
             metric_value: bp.diastolic_mmHg_int,
             metric_unit: "mmHg",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -124,7 +125,7 @@ export const saveBodySummary = async (webhookData) => {
           metric_type: METRIC_TYPE.HR_AVG,
           metric_value: hr.hr_avg_bpm_int,
           metric_unit: "bpm",
-          metric_source: source,
+          metric_source: "summary",
           source_type: sourceType,
           date,
         })
@@ -140,7 +141,7 @@ export const saveBodySummary = async (webhookData) => {
           metric_type: METRIC_TYPE.WATER_TOTAL_CONSUMPTION,
           metric_value: hydration.water_total_consumption_mL_int,
           metric_unit: "ml",
-          metric_source: source,
+          metric_source: "summary",
           source_type: sourceType,
           date,
         })
@@ -157,7 +158,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.CALORIES_INTAKE,
             metric_value: nutrition.calories_intake_kcal_float,
             metric_unit: "kcal",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -171,7 +172,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.PROTEIN_INTAKE,
             metric_value: nutrition.protein_intake_g_float,
             metric_unit: "g",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -185,7 +186,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.FAT_INTAKE,
             metric_value: nutrition.fat_intake_g_float,
             metric_unit: "g",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -199,7 +200,7 @@ export const saveBodySummary = async (webhookData) => {
             metric_type: METRIC_TYPE.CARBS_INTAKE,
             metric_value: nutrition.carbohydrates_intake_g_float,
             metric_unit: "g",
-            metric_source: source,
+            metric_source: "summary",
             source_type: sourceType,
             date,
           })
@@ -216,7 +217,7 @@ export const saveBodySummary = async (webhookData) => {
           metric_type: METRIC_TYPE.OXYGENATION_SATURATION,
           metric_value: oxy.saturation_avg_percentage_int,
           metric_unit: "%",
-          metric_source: source,
+          metric_source: "summary",
           source_type: sourceType,
           date,
         })
