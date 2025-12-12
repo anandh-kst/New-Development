@@ -1,7 +1,11 @@
 import mongoose from "mongoose";
 import Observation from "../../models/observation.model.js";
-import METRIC_TYPE from "../../constants/metricTypes.js";
-import { getSourceType, isValidValue } from "../../utils/service-helper.js";
+import METRIC_TYPES from "../../constants/metricTypes.js";
+import {
+  getMetricTypes,
+  getSourceType,
+  isValidValue,
+} from "../../utils/service-helper.js";
 
 export const saveBodySummary = async (webhookData) => {
   try {
@@ -11,18 +15,22 @@ export const saveBodySummary = async (webhookData) => {
     const summary = webhookData.body_health?.summary?.body_summary;
     if (!summary) return;
 
+    const res = await getMetricTypes();
+    const METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
+    
     const date = summary.metadata?.datetime_string
       ? new Date(summary.metadata.datetime_string)
       : new Date();
 
     const sourceArray = summary.metadata?.sources_of_data_array || ["Unknown"];
-    const source =
-      sourceArray.length > 1 ? sourceArray.join("+") : sourceArray[0];
+    // const source =
+    //   sourceArray.length > 1 ? sourceArray.join("+") : sourceArray[0];
     const sourceType = getSourceType(summary.non_structured_data_array);
 
     const metricsToSave = [];
 
     const bodyMetrics = summary.body_metrics;
+    console.log(METRIC_TYPE.WEIGHT);
     if (bodyMetrics) {
       if (isValidValue(bodyMetrics.weight_kg_float)) {
         metricsToSave.push(

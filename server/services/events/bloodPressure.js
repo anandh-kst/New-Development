@@ -1,6 +1,6 @@
 import Observation  from "../../models/observation.model.js";
-import  METRIC_TYPE  from "../../constants/metricTypes.js";
-import { getSourceType,isValidValue } from "../../utils/service-helper.js";
+import  METRIC_TYPES  from "../../constants/metricTypes.js";
+import { getMetricTypes, getSourceType,isValidValue } from "../../utils/service-helper.js";
 
 
 export const saveBloodPressureEvent = async (webhookData) => {
@@ -10,6 +10,9 @@ export const saveBloodPressureEvent = async (webhookData) => {
 
     const bpEvents = webhookData.body_health?.events?.blood_pressure_event;
     if (!bpEvents || bpEvents.length === 0) return;
+
+    const res = await getMetricTypes();
+    const METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
 
     const metricsToSave = [];
 

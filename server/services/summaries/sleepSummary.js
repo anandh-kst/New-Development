@@ -1,7 +1,11 @@
 import mongoose from "mongoose";
 import Observation from "../../models/observation.model.js";
-import METRIC_TYPE from "../../constants/metricTypes.js";
-import { getSourceType, isValidValue } from "../../utils/service-helper.js";
+import METRIC_TYPES from "../../constants/metricTypes.js";
+import {
+  getMetricTypes,
+  getSourceType,
+  isValidValue,
+} from "../../utils/service-helper.js";
 
 export const saveSleepSummary = async (webhookData) => {
   try {
@@ -10,6 +14,9 @@ export const saveSleepSummary = async (webhookData) => {
 
     const summary = webhookData.sleep_health?.summary?.sleep_summary;
     if (!summary) return;
+
+    const res = await getMetricTypes();
+    const METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
 
     const date = summary.metadata?.datetime_string
       ? new Date(summary.metadata.datetime_string)

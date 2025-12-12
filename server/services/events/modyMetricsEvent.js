@@ -1,7 +1,10 @@
 import Observation from "../../models/observation.model.js";
-import METRIC_TYPE from "../../constants/metricTypes.js";
-import { getSourceType,isValidValue } from "../../utils/service-helper.js";
-
+import METRIC_TYPES from "../../constants/metricTypes.js";
+import {
+  getMetricTypes,
+  getSourceType,
+  isValidValue,
+} from "../../utils/service-helper.js";
 
 export const saveBodyMetricsEvent = async (webhookData) => {
   try {
@@ -11,11 +14,16 @@ export const saveBodyMetricsEvent = async (webhookData) => {
     const events = webhookData.body_health?.events?.body_metrics_event;
     if (!events || events.length === 0) return;
 
+    const res = await getMetricTypes();
+    const METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
+
     const metricsToSave = [];
 
     for (const event of events) {
       const metadata = event.metadata || {};
-      const date = metadata.datetime_string ? new Date(metadata.datetime_string) : new Date();
+      const date = metadata.datetime_string
+        ? new Date(metadata.datetime_string)
+        : new Date();
 
       const sourceArray = metadata.sources_of_data_array || ["Unknown"];
       const source = sourceArray[0];
@@ -29,14 +37,42 @@ export const saveBodyMetricsEvent = async (webhookData) => {
         { type: METRIC_TYPE.HEIGHT, value: bm.height_cm_int, unit: "cm" },
         { type: METRIC_TYPE.BMI, value: bm.bmi_float, unit: "bmi" },
 
-        { type: METRIC_TYPE.BODY_FAT, value: bm.body_fat_percentage_int, unit: "%" },
-        { type: METRIC_TYPE.MUSCLE_MASS, value: bm.muscle_composition_percentage_int, unit: "%" },
-        { type: METRIC_TYPE.BONE_MASS, value: bm.bone_composition_percentage_int, unit: "%" },
-        { type: METRIC_TYPE.WATER_PERCENTAGE, value: bm.water_composition_percentage_int, unit: "%" },
+        {
+          type: METRIC_TYPE.BODY_FAT,
+          value: bm.body_fat_percentage_int,
+          unit: "%",
+        },
+        {
+          type: METRIC_TYPE.MUSCLE_MASS,
+          value: bm.muscle_composition_percentage_int,
+          unit: "%",
+        },
+        {
+          type: METRIC_TYPE.BONE_MASS,
+          value: bm.bone_composition_percentage_int,
+          unit: "%",
+        },
+        {
+          type: METRIC_TYPE.WATER_PERCENTAGE,
+          value: bm.water_composition_percentage_int,
+          unit: "%",
+        },
 
-        { type: METRIC_TYPE.WAIST_CIRCUMFERENCE, value: bm.waist_circumference_cm_int, unit: "cm" },
-        { type: METRIC_TYPE.HIP_CIRCUMFERENCE, value: bm.hip_circumference_cm_int, unit: "cm" },
-        { type: METRIC_TYPE.CHEST_CIRCUMFERENCE, value: bm.chest_circumference_cm_int, unit: "cm" },
+        {
+          type: METRIC_TYPE.WAIST_CIRCUMFERENCE,
+          value: bm.waist_circumference_cm_int,
+          unit: "cm",
+        },
+        {
+          type: METRIC_TYPE.HIP_CIRCUMFERENCE,
+          value: bm.hip_circumference_cm_int,
+          unit: "cm",
+        },
+        {
+          type: METRIC_TYPE.CHEST_CIRCUMFERENCE,
+          value: bm.chest_circumference_cm_int,
+          unit: "cm",
+        },
       ];
 
       for (const metric of metricsMap) {
@@ -59,11 +95,12 @@ export const saveBodyMetricsEvent = async (webhookData) => {
 
     if (metricsToSave.length > 0) {
       await Observation.insertMany(metricsToSave);
-      console.log(`Saved ${metricsToSave.length} body_metrics_event metrics for ${user_id}`);
+      console.log(
+        `Saved ${metricsToSave.length} body_metrics_event metrics for ${user_id}`
+      );
     } else {
       console.log(`No valid body_metrics_event metrics to save for ${user_id}`);
     }
-
   } catch (err) {
     console.error("Error saving body_metrics_event:", err);
   }

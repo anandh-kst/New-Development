@@ -1,8 +1,12 @@
 import Observation from "../../models/observation.model.js";
-import METRIC_TYPE from "../../constants/metricTypes.js";
-import { getSourceType,isValidValue } from "../../utils/service-helper.js";
+import METRIC_TYPES from "../../constants/metricTypes.js";
+import {
+  getMetricTypes,
+  getSourceType,
+  isValidValue,
+} from "../../utils/service-helper.js";
 
-
+const METRIC_TYPE = METRIC_TYPES;
 const getActivityMetricType = (name) => {
   if (!name) return METRIC_TYPE.ACTIVITY_OTHER;
   const map = {
@@ -26,6 +30,9 @@ export const saveActivityEvent = async (webhookData) => {
     const events = webhookData.physical_health?.events?.activity_event;
     if (!events || events.length === 0) return;
 
+    const res = await getMetricTypes();
+    METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
+
     const metricsToSave = [];
 
     for (const event of events) {
@@ -40,7 +47,9 @@ export const saveActivityEvent = async (webhookData) => {
       const source = metadata.sources_of_data_array?.[0] || "Unknown";
       const sourceType = getSourceType(event.non_structured_data_array);
       const activityValue = activity.activity_duration_seconds_int;
-      const activityType = getActivityMetricType(activity.activity_type_name_string) 
+      const activityType = getActivityMetricType(
+        activity.activity_type_name_string
+      );
       if (activityValue && isValidValue(activityValue)) {
         metricsToSave.push(
           new Observation({
@@ -57,7 +66,6 @@ export const saveActivityEvent = async (webhookData) => {
       }
 
       const metricsMap = [
-     
         {
           type: METRIC_TYPE.CALORIES_EXPENDITURE,
           value: calories.calories_expenditure_kcal_float,
