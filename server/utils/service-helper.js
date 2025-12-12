@@ -27,3 +27,19 @@ export async function getMetricTypes() {
     throw error;
   }
 }
+
+export async function getMetricUom() {
+  try {
+    const metrics = await MetricType.find({})
+      .select("metric_type metric_uom -_id")
+      .lean();
+    const METRIC_UOM = {};
+    metrics.forEach((metric) => {
+      METRIC_UOM[metric.metric_type] = metric.metric_uom;
+    });
+    return METRIC_UOM;
+  } catch (error) {
+    console.error("Error fetching metrics:", error);
+    throw error;
+  }
+}

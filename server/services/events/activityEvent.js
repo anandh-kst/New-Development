@@ -1,12 +1,14 @@
 import Observation from "../../models/observation.model.js";
-import METRIC_TYPES from "../../constants/metricTypes.js";
 import {
   getMetricTypes,
+  getMetricUom,
   getSourceType,
   isValidValue,
 } from "../../utils/service-helper.js";
 
-const METRIC_TYPE = METRIC_TYPES;
+
+
+let METRIC_TYPE = {};
 const getActivityMetricType = (name) => {
   if (!name) return METRIC_TYPE.ACTIVITY_OTHER;
   const map = {
@@ -30,8 +32,8 @@ export const saveActivityEvent = async (webhookData) => {
     const events = webhookData.physical_health?.events?.activity_event;
     if (!events || events.length === 0) return;
 
-    const res = await getMetricTypes();
-    METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
+    METRIC_TYPE = await getMetricTypes();
+    const METRIC_UOM = await getMetricUom();
 
     const metricsToSave = [];
 
@@ -50,6 +52,7 @@ export const saveActivityEvent = async (webhookData) => {
       const activityType = getActivityMetricType(
         activity.activity_type_name_string
       );
+
       if (activityValue && isValidValue(activityValue)) {
         metricsToSave.push(
           new Observation({
@@ -57,7 +60,7 @@ export const saveActivityEvent = async (webhookData) => {
             user_id,
             metric_type: activityType,
             metric_value: activityValue,
-            metric_unit: "seconds",
+            metric_unit: METRIC_UOM[activityType],
             metric_source: source,
             source_type: sourceType,
             date,
@@ -69,28 +72,32 @@ export const saveActivityEvent = async (webhookData) => {
         {
           type: METRIC_TYPE.CALORIES_EXPENDITURE,
           value: calories.calories_expenditure_kcal_float,
-          unit: "kcal",
+          unit: METRIC_UOM[METRIC_TYPE.CALORIES_EXPENDITURE],
         },
         {
           type: METRIC_TYPE.WALKED_DISTANCE,
           value: distance.walked_distance_meters_float,
-          unit: "meters",
+          unit: METRIC_UOM[METRIC_TYPE.WALKED_DISTANCE],
         },
-        { type: METRIC_TYPE.STEPS, value: distance.steps_int, unit: "steps" },
+        {
+          type: METRIC_TYPE.STEPS,
+          value: distance.steps_int,
+          unit: METRIC_UOM[METRIC_TYPE.STEPS],
+        },
         {
           type: METRIC_TYPE.HR_AVG,
           value: heartRate.hr_avg_bpm_int,
-          unit: "bpm",
+          unit: METRIC_UOM[METRIC_TYPE.HR_AVG],
         },
         {
           type: METRIC_TYPE.HR_MAX,
           value: heartRate.hr_maximum_bpm_int,
-          unit: "bpm",
+          unit: METRIC_UOM[METRIC_TYPE.HR_MAX],
         },
         {
           type: METRIC_TYPE.HR_MIN,
           value: heartRate.hr_minimum_bpm_int,
-          unit: "bpm",
+          unit: METRIC_UOM[METRIC_TYPE.HR_MIN],
         },
       ];
 

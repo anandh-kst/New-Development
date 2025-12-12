@@ -2,6 +2,7 @@ import Observation from "../../models/observation.model.js";
 import METRIC_TYPES from "../../constants/metricTypes.js";
 import {
   getMetricTypes,
+  getMetricUom,
   getSourceType,
   isValidValue,
 } from "../../utils/service-helper.js";
@@ -14,11 +15,10 @@ export const saveHeartRateEvent = async (webhookData) => {
     const hrEvents = webhookData.body_health?.events?.heart_rate_event;
     if (!hrEvents || hrEvents.length === 0) return;
 
-    const res = await getMetricTypes();
-    const METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
+    const METRIC_TYPE = await getMetricTypes();
+    const METRIC_UOM = await getMetricUom();
 
     const metricsToSave = [];
-
     for (const event of hrEvents) {
       const metadata = event.metadata || {};
       const date = metadata.datetime_string
@@ -35,34 +35,35 @@ export const saveHeartRateEvent = async (webhookData) => {
         {
           type: METRIC_TYPE.HR_AVG,
           value: hrData.hr_avg_bpm_int,
-          unit: "bpm",
+          unit: METRIC_UOM[METRIC_TYPE.HR_AVG],
         },
         {
           type: METRIC_TYPE.HR_EVENT_RESTING,
           value: hrData.hr_resting_bpm_int,
-          unit: "bpm",
+          unit: METRIC_UOM[METRIC_TYPE.HR_EVENT_RESTING],
         },
         {
           type: METRIC_TYPE.HR_MAX,
           value: hrData.hr_maximum_bpm_int,
-          unit: "bpm",
+          unit: METRIC_UOM[METRIC_TYPE.HR_MAX],
         },
         {
           type: METRIC_TYPE.HR_MIN,
           value: hrData.hr_minimum_bpm_int,
-          unit: "bpm",
+          unit: METRIC_UOM[METRIC_TYPE.HR_MIN],
         },
         {
           type: METRIC_TYPE.HRV_RMSSD,
           value: hrData.hrv_avg_rmssd_float,
-          unit: "ms",
+          unit: METRIC_UOM[METRIC_TYPE.HRV_RMSSD],
         },
         {
           type: METRIC_TYPE.HRV_SDNN,
           value: hrData.hrv_avg_sdnn_float,
-          unit: "ms",
+          unit: METRIC_UOM[METRIC_TYPE.HRV_SDNN],
         },
       ];
+
       for (const metric of hrMetricsMap) {
         if (isValidValue(metric.value)) {
           metricsToSave.push(

@@ -4,6 +4,7 @@ import {
   getMetricTypes,
   getSourceType,
   isValidValue,
+  getMetricUom,
 } from "../../utils/service-helper.js";
 
 export const saveBodyMetricsEvent = async (webhookData) => {
@@ -14,11 +15,10 @@ export const saveBodyMetricsEvent = async (webhookData) => {
     const events = webhookData.body_health?.events?.body_metrics_event;
     if (!events || events.length === 0) return;
 
-    const res = await getMetricTypes();
-    const METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
+    const METRIC_TYPE = await getMetricTypes();
+    const METRIC_UOM = await getMetricUom();
 
     const metricsToSave = [];
-
     for (const event of events) {
       const metadata = event.metadata || {};
       const date = metadata.datetime_string
@@ -33,45 +33,57 @@ export const saveBodyMetricsEvent = async (webhookData) => {
       const bm = event.body_metrics || {};
 
       const metricsMap = [
-        { type: METRIC_TYPE.WEIGHT, value: bm.weight_kg_float, unit: "kg" },
-        { type: METRIC_TYPE.HEIGHT, value: bm.height_cm_int, unit: "cm" },
-        { type: METRIC_TYPE.BMI, value: bm.bmi_float, unit: "bmi" },
+        {
+          type: METRIC_TYPE.WEIGHT,
+          value: bm.weight_kg_float,
+          unit: METRIC_UOM[METRIC_TYPE.WEIGHT],
+        },
+        {
+          type: METRIC_TYPE.HEIGHT,
+          value: bm.height_cm_int,
+          unit: METRIC_UOM[METRIC_TYPE.HEIGHT],
+        },
+        {
+          type: METRIC_TYPE.BMI,
+          value: bm.bmi_float,
+          unit: METRIC_UOM[METRIC_TYPE.BMI],
+        },
 
         {
           type: METRIC_TYPE.BODY_FAT,
           value: bm.body_fat_percentage_int,
-          unit: "%",
+          unit: METRIC_UOM[METRIC_TYPE.BODY_FAT],
         },
         {
           type: METRIC_TYPE.MUSCLE_MASS,
           value: bm.muscle_composition_percentage_int,
-          unit: "%",
+          unit: METRIC_UOM[METRIC_TYPE.MUSCLE_MASS],
         },
         {
           type: METRIC_TYPE.BONE_MASS,
           value: bm.bone_composition_percentage_int,
-          unit: "%",
+          unit: METRIC_UOM[METRIC_TYPE.BONE_MASS],
         },
         {
           type: METRIC_TYPE.WATER_PERCENTAGE,
           value: bm.water_composition_percentage_int,
-          unit: "%",
+          unit: METRIC_UOM[METRIC_TYPE.WATER_PERCENTAGE],
         },
 
         {
           type: METRIC_TYPE.WAIST_CIRCUMFERENCE,
           value: bm.waist_circumference_cm_int,
-          unit: "cm",
+          unit: METRIC_UOM[METRIC_TYPE.WAIST_CIRCUMFERENCE],
         },
         {
           type: METRIC_TYPE.HIP_CIRCUMFERENCE,
           value: bm.hip_circumference_cm_int,
-          unit: "cm",
+          unit: METRIC_UOM[METRIC_TYPE.HIP_CIRCUMFERENCE],
         },
         {
           type: METRIC_TYPE.CHEST_CIRCUMFERENCE,
           value: bm.chest_circumference_cm_int,
-          unit: "cm",
+          unit: METRIC_UOM[METRIC_TYPE.CHEST_CIRCUMFERENCE],
         },
       ];
 

@@ -1,7 +1,12 @@
 import mongoose from "mongoose";
 import Observation from "../../models/observation.model.js";
 import METRIC_TYPES from "../../constants/metricTypes.js";
-import { getMetricTypes, getSourceType, isValidValue } from "../../utils/service-helper.js";
+import {
+  getMetricTypes,
+  getMetricUom,
+  getSourceType,
+  isValidValue,
+} from "../../utils/service-helper.js";
 
 export const saveStepsEvent = async (webhookData) => {
   try {
@@ -11,8 +16,8 @@ export const saveStepsEvent = async (webhookData) => {
     const stepsEvents = webhookData.physical_health?.events?.steps_event;
     if (!stepsEvents || stepsEvents.length === 0) return;
 
-    const res = await getMetricTypes();
-    const METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
+    const METRIC_TYPE = await getMetricTypes();
+    const METRIC_UOM = await getMetricUom();
 
     const metricsToSave = [];
 
@@ -34,7 +39,7 @@ export const saveStepsEvent = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.STEPS,
             metric_value: stepsCount,
-            metric_unit: "count",
+            metric_unit: METRIC_UOM[METRIC_TYPE.STEPS],
             metric_source: source,
             source_type: sourceType,
             date,

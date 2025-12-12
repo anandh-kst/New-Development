@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 import Observation from "../../models/observation.model.js";
-import METRIC_TYPES from "../../constants/metricTypes.js";
 import {
   getMetricTypes,
+  getMetricUom,
   getSourceType,
   isValidValue,
 } from "../../utils/service-helper.js";
@@ -15,16 +15,16 @@ export const saveSleepSummary = async (webhookData) => {
     const summary = webhookData.sleep_health?.summary?.sleep_summary;
     if (!summary) return;
 
-    const res = await getMetricTypes();
-    const METRIC_TYPE = Object.keys(res || {}).length > 0 ? res : METRIC_TYPES;
+    const METRIC_TYPE = await getMetricTypes();
+    const METRIC_UOM = await getMetricUom();
 
     const date = summary.metadata?.datetime_string
       ? new Date(summary.metadata.datetime_string)
       : new Date();
 
-    const sourceArray = summary.metadata?.sources_of_data_array || ["Unknown"];
-    const source =
-      sourceArray.length > 1 ? sourceArray.join("+") : sourceArray[0];
+    // const sourceArray = summary.metadata?.sources_of_data_array || ["Unknown"];
+    // const source =
+    //   sourceArray.length > 1 ? sourceArray.join("+") : sourceArray[0];
     const sourceType = getSourceType(summary.non_structured_data_array);
 
     const metricsToSave = [];
@@ -38,7 +38,7 @@ export const saveSleepSummary = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.SLEEP_DURATION,
             metric_value: duration.sleep_duration_seconds_int,
-            metric_unit: "seconds",
+            metric_unit: METRIC_UOM[METRIC_TYPE.SLEEP_DURATION],
             metric_source: "summary",
             source_type: sourceType,
             date,
@@ -52,7 +52,7 @@ export const saveSleepSummary = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.TIME_IN_BED,
             metric_value: duration.time_in_bed_seconds_int,
-            metric_unit: "seconds",
+            metric_unit: METRIC_UOM[METRIC_TYPE.TIME_IN_BED],
             metric_source: "summary",
             source_type: sourceType,
             date,
@@ -66,7 +66,7 @@ export const saveSleepSummary = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.LIGHT_SLEEP_DURATION,
             metric_value: duration.light_sleep_duration_seconds_int,
-            metric_unit: "seconds",
+            metric_unit: METRIC_UOM[METRIC_TYPE.LIGHT_SLEEP_DURATION],
             metric_source: "summary",
             source_type: sourceType,
             date,
@@ -80,7 +80,7 @@ export const saveSleepSummary = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.DEEP_SLEEP_DURATION,
             metric_value: duration.deep_sleep_duration_seconds_int,
-            metric_unit: "seconds",
+            metric_unit:METRIC_UOM[METRIC_TYPE.DEEP_SLEEP_DURATION],
             metric_source: "summary",
             source_type: sourceType,
             date,
@@ -94,7 +94,7 @@ export const saveSleepSummary = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.REM_SLEEP_DURATION,
             metric_value: duration.rem_sleep_duration_seconds_int,
-            metric_unit: "seconds",
+            metric_unit:METRIC_UOM[METRIC_TYPE.REM_SLEEP_DURATION],
             metric_source: "summary",
             source_type: sourceType,
             date,
@@ -111,7 +111,7 @@ export const saveSleepSummary = async (webhookData) => {
           user_id,
           metric_type: METRIC_TYPE.HR_AVG,
           metric_value: hr.hr_avg_bpm_int,
-          metric_unit: "bpm",
+          metric_unit:METRIC_UOM[METRIC_TYPE.HR_AVG],
           metric_source: "summary",
           source_type: sourceType,
           date,
@@ -127,7 +127,7 @@ export const saveSleepSummary = async (webhookData) => {
           user_id,
           metric_type: METRIC_TYPE.SLEEP_EFFICIENCY,
           metric_value: scores.sleep_efficiency_1_100_score_int,
-          metric_unit: "%",
+          metric_unit: METRIC_UOM[METRIC_TYPE.SLEEP_EFFICIENCY],
           metric_source: "summary",
           source_type: sourceType,
           date,
@@ -144,7 +144,7 @@ export const saveSleepSummary = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.OXYGENATION_SATURATION,
             metric_value: breathing.saturation_avg_percentage_int,
-            metric_unit: "%",
+            metric_unit: METRIC_UOM[METRIC_TYPE.OXYGENATION_SATURATION],
             metric_source: "summary",
             source_type: sourceType,
             date,
@@ -158,7 +158,7 @@ export const saveSleepSummary = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.SNORING_EVENTS,
             metric_value: breathing.snoring_events_count_int,
-            metric_unit: "count",
+            metric_unit: METRIC_UOM[METRIC_TYPE.SNORING_EVENTS],
             metric_source: "summary",
             source_type: sourceType,
             date,
@@ -172,7 +172,7 @@ export const saveSleepSummary = async (webhookData) => {
             user_id,
             metric_type: METRIC_TYPE.SNORING_DURATION,
             metric_value: breathing.snoring_duration_total_seconds_int,
-            metric_unit: "seconds",
+            metric_unit: METRIC_UOM[METRIC_TYPE.SNORING_DURATION],
             metric_source: "summary",
             source_type: sourceType,
             date,
