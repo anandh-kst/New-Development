@@ -4,7 +4,6 @@ const observationSchema = new mongoose.Schema(
   {
     client_uuid: {
       type: String,
-      required: true,
     },
     user_id: {
       type: String,

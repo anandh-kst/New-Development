@@ -81,7 +81,6 @@ export const saveHeartRateEvent = async (webhookData) => {
         }
       }
     }
-
     if (metricsToSave.length > 0) {
       await Observation.insertMany(metricsToSave);
       console.log(
