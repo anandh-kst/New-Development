@@ -6,11 +6,6 @@ yarn-error.log*
 pnpm-debug.log*
 dist/
 build/
-.env
-.env.local
-.env.development
-.env.production
-.env.test
 
 # Logs
 logs/

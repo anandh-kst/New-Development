@@ -16,7 +16,7 @@ import saveHydrationEvent from "../services/events/hydrationEvent.js";
 const serviceMap = {
   // body_summary: bodySummaryService,
   // sleep_summary: sleepSummaryService,
-  // heart_rate_event: heartRateEventService,
+  // heart_rate_event: heartRateEventService, 
   blood_pressure_event: bloodPressureEventService,
   steps_event: stepsEventService,
   physical_summary: physicalSummaryService,
